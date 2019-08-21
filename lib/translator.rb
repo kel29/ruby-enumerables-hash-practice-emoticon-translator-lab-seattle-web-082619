@@ -13,7 +13,7 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  puts load_library(file_path)
+  load_library(file_path)["get_emoticon"][emoticon]
 
 end
 
